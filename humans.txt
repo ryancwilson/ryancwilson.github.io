@@ -1,0 +1,11 @@
+/* Team */
+	Web Designer: Ryan Wilson
+	Contact: Ryancwilson@outlook.com
+	Twitter: @RyanWilson_8
+	From: Uttoxeter, Staffordshire, United Kingdom
+
+/* Site */
+	Last update: 2017/10/09
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text
