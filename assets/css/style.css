@@ -1236,9 +1236,13 @@ a.s_f_8:hover{
 
 .transparent {
 	background: #7f7f7f;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.6);
 	padding: 10px;
 	min-width:250px;
+}
+
+.transparent span {
+	color:	black;
 }
 
 .soon-btn {
