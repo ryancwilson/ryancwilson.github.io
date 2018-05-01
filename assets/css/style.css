@@ -615,6 +615,7 @@ input:-ms-input-placeholder {
 .main_area{
 	width:100%;
 	overflow:hidden;
+	max-height:100%
 }
 .home{
 	background:url(../images/homebg.jpg) no-repeat top center;
@@ -1231,4 +1232,34 @@ a.s_f_8:hover{
 	margin-left: -6px;
 	text-decoration: none;
 
+}
+
+.transparent {
+	background: #7f7f7f;
+    background: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	min-width:250px;
+}
+
+.soon-btn {
+	pointer-events: none;
+	cursor: default;
+	background-color: grey;
+	border: 0;
+}
+
+.portfolioHead {
+	margin-top: -100px;
+}
+
+.center-grid {
+	max-height:125px;
+	display: block;
+	margin: 0 auto;
+}
+
+.center-grid {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
