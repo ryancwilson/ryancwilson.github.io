@@ -1,5 +1,10 @@
 "use strict";
 
+$(window).load(function () {
+		$(".loaded").fadeOut(4000);
+		$(".preloader").delay(1000).fadeOut("slow");
+	});
+
 
 jQuery(document).ready(function ($) {
 
@@ -187,8 +192,3 @@ jQuery(document).ready(function ($) {
 
     //End
 });
-
-$(window).load(function () {
-		$(".loaded").fadeOut(1500);
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
