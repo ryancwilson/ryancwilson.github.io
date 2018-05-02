@@ -3,10 +3,7 @@
 
 jQuery(document).ready(function ($) {
 
-	$(window).load(function () {
-		$(".loaded").fadeOut(1500);
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
+	
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -190,3 +187,8 @@ jQuery(document).ready(function ($) {
 
     //End
 });
+
+$(window).load(function () {
+		$(".loaded").fadeOut(1500);
+		$(".preloader").delay(1000).fadeOut("slow");
+	});
