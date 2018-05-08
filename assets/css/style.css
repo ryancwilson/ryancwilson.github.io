@@ -815,10 +815,7 @@ blockquote {
 	background:url(../images/blackbg.jpg) no-repeat top center;
 	background-size:cover;
 }
-.drivinghome_overlay{
-	background: url(../images/drivingbg.png) repeat-y 100% 100%;
-	background-size: contain;
-}
+
 .single_drivinghome blockquote p{
 	max-width: 80%;
 }
